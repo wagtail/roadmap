@@ -1,0 +1,16 @@
+# To keep this file up-to-date, refer to Wagtail’s own GitHub Issues configuration.
+# https://github.com/wagtail/wagtail/blob/main/.github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: Wagtail Discussions
+    url: https://github.com/wagtail/wagtail/discussions
+    about: Share your feedback with the Wagtail community.
+  - name: Wagtail Issues
+    url: https://github.com/wagtail/wagtail/issues
+    about: Share bug reports and feature requests on Wagtail’s issue tracker.
+  - name: 🙋 Ask questions on Stack Overflow (preferred)
+    url: https://stackoverflow.com/questions/tagged/wagtail
+    about: Ask structured and fully-formed questions about Wagtail or about building a site with Wagtail
+  - name: 🙋 Ask questions on Slack
+    url: https://github.com/wagtail/wagtail/wiki/Slack
+    about: Ask general questions about Wagtail or about building a site with Wagtail
