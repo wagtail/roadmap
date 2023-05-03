@@ -1,6 +1,6 @@
 # Wagtail public roadmap
 
-:sparkle: View the [official Wagtail public roadmap](https://github.com/orgs/wagtail/projects/16).
+:sparkle: View the [official Wagtail public roadmap](https://wagtail.org/roadmap/). View full [historical data in GitHub Projects](https://github.com/orgs/wagtail/projects/16).
 
 Our public roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. It also covers major community or project efforts that aren’t features.
 
