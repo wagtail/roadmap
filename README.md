@@ -66,3 +66,11 @@ To keep the review process fast, we recommend to:
 
 - Avoid making more additions to a list of roadmap items proposed as an RFC after the initial RFC submissions.
 - Remove proposed roadmap items which prove too complex to review with this process. They can be reviewed separately as appropriate.
+
+### Managing the roadmap
+
+For maintainers, here is guidance on how to manage our roadmap data:
+
+- Always update the [wagtail.org Roadmap page](https://wagtail.org/roadmap/) after making changes in GitHub, so it reflects the latest data.
+- Always use issues on the `roadmap` repository as roadmap entries. This makes for a more consistent experience for everyone (same labels, comments all in the same repository, etc.)
+- Make sure all roadmap entries set a Milestone, project Status, and Start date. The milestone is used for the wagtail.org page, status for the GitHub Projects Kanban, start date for the GitHub Projects timeline / "roadmap" view.
