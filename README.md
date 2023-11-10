@@ -38,6 +38,8 @@ Feedback from the wider community is also welcome as part of roadmap additions.
 
 #### Level of detail
 
+Roadmap items should have titles accessible to stakeholders without technical expertise a lot of context on how Wagtail works
+
 Proposed roadmap items should provide enough details to fill in the relevant sections of this proposed roadmap item template:
 
 ```markdown
