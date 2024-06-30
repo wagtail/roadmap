@@ -14,16 +14,19 @@
 
 ## Paper 1: A large-scaled corpus for assessing text readability
 
->[!info] Key facts
+> [!NOTE]
 >Year: 2022
+> 
 >Citations: 20
 
 *Crossley, S., Heintz, A., Choi, J.S. et al. A large-scaled corpus for assessing text readability. Behav Res **55**, 491–507 (2023). https://doi.org/10.3758/s13428-022-01802-x*
 
-> [!Abstract] This paper: 
-> - Introduces the CommonLit Ease of Readability (CLEAR) corpus, which provides unique readability scores for ~ 5000 text excerpts along with information about the excerpt’s year of publishing, genre, and other metadata.
-> - Discusses the development of the corpus and presents reliability metrics for the human ratings of readability.
->  - Notes existing readability formulas used for educational texts, and argues they are problematic. 
+
+### Summary of abstract
+This paper:
+- Introduces the CommonLit Ease of Readability (CLEAR) corpus, which provides unique readability scores for ~ 5000 text excerpts along with information about the excerpt’s year of publishing, genre, and other metadata.
+- Discusses the development of the corpus and presents reliability metrics for the human ratings of readability.
+- Notes existing readability formulas used for educational texts, and argues they are problematic. 
 
 
 ### Key points
@@ -56,17 +59,19 @@
 
 ## Paper 2: # Perusal of readability with focus on web content understandability
 
->[!INFO] Key facts
+>[!NOTE]
 >Year: 2021
+>
 >Citations:  18
 
 *Pawan Kumar Ojha, Abid Ismail, Kuppusamy Kundumani Srinivasan,
 Perusal of readability with focus on web content understandability, Journal of King Saud University - Computer and Information Sciences, Volume 33, Issue 1, 2021, Pages 1-10, ISSN 1319-1578,
 https://doi.org/10.1016/j.jksuci.2018.03.007.*
 
->[!tldr] This paper:
-> - Analyzes the popular readability indices used to check the readability of websites and web pages
-> - Makes suggestions, based on survey findings, to consider while developing readability formulas
+### Summary of abstract
+This paper:
+- Analyzes the popular readability indices used to check the readability of websites and web pages
+- Makes suggestions, based on survey findings, to consider while developing readability formulas
 
 ### Conclusion / Findings
 - Most work on readability formulas still focuses on English only and will not work on texts in scripts other than used by English
@@ -83,15 +88,17 @@ https://doi.org/10.1016/j.jksuci.2018.03.007.*
 
 ## Paper 3: # Towards Techniques for Easy-to-Read Web Content
 
->[!info] Key facts:
+>[!NOTE]
 >Year: 2014
+>
 >Citations: 12
 
 *Annika Nietzio, Daniel Naber, Christian Bühler, Towards Techniques for Easy-to-Read Web Content, Procedia Computer Science, Volume 27, 2014, Pages 343-349, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2014.02.038.*
 
->[!Abstract] This paper:
->- Compares approaches to check understandability of web content
->- Describes a method to extend coverage of tools across multiple languages
+### Summary of abstract
+This paper:
+- Compares approaches to check understandability of web content
+- Describes a method to extend coverage of tools across multiple languages
 
 ### Key points
 - Clear language of content as well as its structure and presentation are equally important in supporting the user in finding, understanding and using the information on the web
@@ -118,5 +125,3 @@ https://www.effortmark.co.uk/readability-formulas-seven-reasons-to-avoid-them-an
 - Counting word length does not consider whether the audience are likely to know what a word means - while some readability formulas (such as Dale-Chall) use a word list, many of these are outdated and do not consider modern usages, such as *cookie* in a web context
 - Functional literacy is more important than grade level - adults with lower reading levels have come to know more words from life experience, so while "promise money" might score better than "security deposit", in real terms, the latter is more understood in real world contexts
 - Readability formulas are designed for long-form content will full sentences and paragraphs, so are not fit for purpose for the web, for interactions such as UI labels and web forms. Lists are a common way to make web content easy to read and understand, but would probably score low based on readability formulas.
-
-
