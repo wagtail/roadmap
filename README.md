@@ -47,11 +47,11 @@ Roadmap items should have titles accessible to stakeholders without technical ex
 Proposed roadmap items should provide enough details to fill in the relevant sections of this proposed roadmap item template:
 
 ```markdown
-## Summary
+Summary: short overview of the proposed work. One paragraph, tweet-sized.
 
-A short overview of the proposed work. One paragraph, tweet-sized.
+Optional: a screenshot or other high-level visual representation of the item.
 
-## Intended Outcome
+## Intended outcome
 
 A short paragraph or list of 2-5 items detailing what will be the result of this work.
 
