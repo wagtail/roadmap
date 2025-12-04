@@ -6,13 +6,18 @@
 
 Our public roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. It also covers major community or project efforts that aren’t features.
 
-## Guide to the roadmap
+## Roadmap reports
 
 View full [historical data in GitHub Projects](https://github.com/orgs/wagtail/projects/16). Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
 
 - [needs contributions](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+contributions%22): there is a particular dependency on more contributors getting involved.
 - [needs sponsorship](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+sponsorship%22): this item is dependent on a [feature sponsorship](https://wagtail.org/sponsor/)
 - [sponsored](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3Asponsored): this item is going ahead thanks to a feature sponsor (thank you!)
+
+We also have reports in GitHub Projects:
+
+- [Roadmap items per release](https://github.com/orgs/wagtail/projects/16/insights/1)
+- [Sponsored features per release](https://github.com/orgs/wagtail/projects/16/insights/3)
 
 ### What goes on the roadmap
 
@@ -40,27 +45,15 @@ The core team review should include:
 
 Feedback from the wider community is also welcome as part of roadmap additions.
 
+For roadmap updates in bulk, use the [roadmap-specific RFC template](rfc-template.md). For context, see [past roadmap-focused RFCs](https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3Aroadmap) and the [Wagtail release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
+
 #### Level of detail
 
-Roadmap items should have titles accessible to stakeholders without technical expertise a lot of context on how Wagtail works
+Roadmap items should have titles accessible to stakeholders without technical expertise a lot of context on how Wagtail works.
 
-Proposed roadmap items should provide enough details to fill in the relevant sections of this proposed roadmap item template:
+Proposed roadmap items should provide enough details to fill in the relevant sections of our [roadmap item template](item-template.md).
 
-```markdown
-Summary: short overview of the proposed work. One paragraph, tweet-sized.
-
-Optional: a screenshot or other high-level visual representation of the item.
-
-## Intended outcome
-
-A short paragraph or list of 2-5 items detailing what will be the result of this work.
-
-## More information
-
-If relevant – a list of 1-3 links to related issues, pull requests, RFCs, or other documentation.
-```
-
-Usage of the template as-is isn’t mandatory. For example, if an item is already tracked by a given issue / pull request / or RFC with sufficient details – that can be used as-is.
+Usage of the template is encouraged but isn’t mandatory. For example, if an item is already tracked by a given issue / pull request / or RFC with sufficient details – that can be used as-is.
 
 #### Review timeline
 
@@ -79,6 +72,8 @@ We’re planning to iterate on the format of the roadmap itself, and we see pote
 
 For maintainers, here is guidance on how to manage our roadmap data:
 
+- Use [this secret issue creation link](https://github.com/wagtail/roadmap/issues/new/choose?template=blank) to add new items. Issue creation is enabled but configured to direct users to other channels.
 - Always update the [wagtail.org Roadmap page](https://wagtail.org/roadmap/) after making changes in GitHub, so it reflects the latest data.
 - Always use issues on the `roadmap` repository as roadmap entries. This makes for a more consistent experience for everyone (same labels, comments all in the same repository, etc.)
-- Make sure all roadmap entries set a Milestone, project Status, and Start date. The milestone is used for the wagtail.org page, status for the GitHub Projects Kanban, start date for the GitHub Projects timeline / "roadmap" view.
+- Make sure all roadmap entries set all metadata defined in [roadmap item template](item-template.md), and a Start Date. The milestone is used for the wagtail.org page, status for the GitHub Projects Kanban, start date for the GitHub Projects timeline / "roadmap" view.
+- In comments, encourage brevity, questions and feedback on the roadmap items, progress updates. Extended discussions and offers to contribute are best kept to GitHub Discussions or other appropriate channels.
