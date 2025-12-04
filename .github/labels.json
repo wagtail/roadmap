@@ -1,0 +1,116 @@
+{
+  "generated_with": "gh label list --sort name --json name,color,description",
+  "last_updated": "2025-12-03T10:42:22.043Z",
+  "labels": [
+    {
+      "name": "AI",
+      "color": "d4cba6",
+      "description": "Artificial Intelligence, machine learning, for CMS users, developers, contributors."
+    },
+    {
+      "name": "accessibility",
+      "color": "2a0f99",
+      "description": "Accessible admin and frontend sites, meeting WCAG, ATAG, and beyond."
+    },
+    {
+      "name": "community",
+      "color": "0ae1b7",
+      "description": "Community growth, events, contributor experience, support programs."
+    },
+    {
+      "name": "content lifecycle",
+      "color": "aed4c7",
+      "description": "Workflow, approvals, localization, archiving, content governance."
+    },
+    {
+      "name": "customizations",
+      "color": "870756",
+      "description": "Extensibility, hooks, configuration for bespoke needs, in particular admin extensibility."
+    },
+    {
+      "name": "database",
+      "color": "caa7ad",
+      "description": "Database schema, migrations, ORM performance, data integrity."
+    },
+    {
+      "name": "documentation",
+      "color": "0075ca",
+      "description": "Developer or user or contributor docs, guides, tutorials, API reference."
+    },
+    {
+      "name": "DX",
+      "color": "3c57a0",
+      "description": "Developer Experience: tooling, APIs, docs for building on Wagtail."
+    },
+    {
+      "name": "headless",
+      "color": "c62ce6",
+      "description": "API-first headless delivery, full-stack frontend frameworks integrations."
+    },
+    {
+      "name": "i18n",
+      "color": "babcb2",
+      "description": "Internationalization, localization, translations, multilingual content management."
+    },
+    {
+      "name": "media",
+      "color": "1545fd",
+      "description": "Images, documents, other media types, asset management, storage pipelines."
+    },
+    {
+      "name": "needs contributions",
+      "color": "008672",
+      "description": "Open for community help; looking for contributors to deliver."
+    },
+    {
+      "name": "needs sponsorship",
+      "color": "ef69b3",
+      "description": "Work that requires funding or external sponsorship to progress."
+    },
+    {
+      "name": "outreach",
+      "color": "7b1fa2",
+      "description": "Community outreach, communications, adoption initiatives."
+    },
+    {
+      "name": "performance",
+      "color": "1b7c62",
+      "description": "Speed of admin or frontend; profiling, caching, query tuning, perceived performance."
+    },
+    {
+      "name": "scale",
+      "color": "7af078",
+      "description": "High-traffic, multi-site, large content sets, reliability at scale."
+    },
+    {
+      "name": "search",
+      "color": "0c1e4c",
+      "description": "Search UX, indexing: query, ranking, Elasticsearch and database search integrations."
+    },
+    {
+      "name": "security",
+      "color": "d4c5f9",
+      "description": "Security hardening, authentication, permissions, threat mitigation, vulnerabilities management."
+    },
+    {
+      "name": "sponsored",
+      "color": "ef69b3",
+      "description": "Work funded by sponsors; going ahead thanks to their support."
+    },
+    {
+      "name": "sustainability",
+      "color": "d93f0b",
+      "description": "Digital sustainability, eco design, carbon footprint, energy use, climate impact."
+    },
+    {
+      "name": "tech debt",
+      "color": "f9f257",
+      "description": "Refactoring, cleanup, dependency updates to improve maintenance, project health."
+    },
+    {
+      "name": "UX",
+      "color": "83efd7",
+      "description": "User Experience polish in the CMS; usability, information architecture."
+    }
+  ]
+}
