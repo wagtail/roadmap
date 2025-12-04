@@ -1,14 +1,14 @@
 # Wagtail public roadmap
 
-:sparkle: View the [official Wagtail public roadmap](https://wagtail.org/roadmap/). View full [historical data in GitHub Projects](https://github.com/orgs/wagtail/projects/16).
+:sparkle: View the [official Wagtail public roadmap](https://wagtail.org/roadmap/).
+
+---
 
 Our public roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. It also covers major community or project efforts that aren’t features.
 
-We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of Wagtail. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [GitHub Discussions for Wagtail](https://github.com/wagtail/wagtail/discussions).
-
 ## Guide to the roadmap
 
-Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
+View full [historical data in GitHub Projects](https://github.com/orgs/wagtail/projects/16). Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
 
 - [needs contributions](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+contributions%22): there is a particular dependency on more contributors getting involved.
 - [needs sponsorship](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+sponsorship%22): this item is dependent on a [feature sponsorship](https://wagtail.org/sponsor/)
@@ -74,6 +74,8 @@ To keep the review process fast, we recommend to:
 - Remove proposed roadmap items which prove too complex to review with this process. They can be reviewed separately as appropriate.
 
 ### Managing the roadmap
+
+We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of Wagtail. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [GitHub Discussions for Wagtail](https://github.com/wagtail/wagtail/discussions).
 
 For maintainers, here is guidance on how to manage our roadmap data:
 
