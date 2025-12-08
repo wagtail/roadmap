@@ -6,9 +6,13 @@
 
 Our public roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. It also covers major community or project efforts that aren’t features.
 
-## Roadmap reports
+## What goes on the roadmap
 
-View full [historical data in GitHub Projects](https://github.com/orgs/wagtail/projects/16). Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
+Only items of significant interest to the community go onto the roadmap. Inclusion is based on judgement by the core team rather than a fixed checklist. These items might, or might not need an [RFC](https://github.com/wagtail/rfcs) for implementation details before they get on the roadmap.
+
+### Roadmap reports
+
+Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
 
 - [needs contributions](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+contributions%22): there is a particular dependency on more contributors getting involved.
 - [needs sponsorship](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+sponsorship%22): this item is dependent on a [feature sponsorship](https://wagtail.org/sponsor/)
@@ -19,11 +23,7 @@ We also have reports in GitHub Projects:
 - [Roadmap items per release](https://github.com/orgs/wagtail/projects/16/insights/1)
 - [Sponsored features per release](https://github.com/orgs/wagtail/projects/16/insights/3)
 
-### What goes on the roadmap
-
-Only items of significant interest to the community go onto the roadmap. This definition is purposefully vague at the moment, and should be reviewed on a regular basis.
-
-Items only go onto the roadmap once they have been considered by the core team. These items might, or might not need an RFC for implementation details before they get on the roadmap.
+View [full data in GitHub Projects](https://github.com/orgs/wagtail/projects/16) to see previous roadmap items.
 
 ### Roadmap lifecycle
 
@@ -41,7 +41,7 @@ The core team review should include:
 - Assessing whether the given addition is likely to require an RFC or not.
 - Sharing the proposed additions on regular core team channels.
 - Discussions at one or two core team meetings to find reviewers or discuss specific points.
-- Approval by enough core team members to reach a consensus.
+- Approval by enough core team members.
 
 Feedback from the wider community is also welcome as part of roadmap additions.
 
