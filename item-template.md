@@ -13,7 +13,9 @@ size: ""
 release: ""
 ---
 
-Summary: short overview of the proposed work. One paragraph, tweet-sized.
+<!-- Summary -->
+
+Short overview of the proposed work. One paragraph, tweet-sized.
 
 Optional: a screenshot or other high-level visual representation of the item.
 
