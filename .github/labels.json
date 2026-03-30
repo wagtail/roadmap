@@ -25,7 +25,7 @@
     {
       "name": "customizations",
       "color": "870756",
-      "description": "Extensibility, hooks, configuration for bespoke needs, in particular admin extensibility."
+      "description": "Extensibility, integrations, hooks, configuration for bespoke needs, in particular admin extensibility."
     },
     {
       "name": "database",
