@@ -9,7 +9,8 @@
 
 ## Abstract
 
-This RFC provides a high-level overview of proposed [public roadmap](https://github.com/wagtail/roadmap) updates for future releases. For context, see [past roadmap-focused RFCs](https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3Aroadmap) and the [Wagtail release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
+This RFC provides a high-level overview of proposed [public roadmap](https://github.com/wagtail/roadmap) updates for future releases.
+For context, see [past roadmap-focused RFCs](https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3Aroadmap) and the [Wagtail release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
 
 ## Version number for the next release
 
@@ -29,7 +30,7 @@ Here is the status of roadmap items for the latest release, vX.Y-1 (Month YYYY):
 
 Proposed roadmap items for vX.Y (Month YYYY):
 
-### Link to existing roadmap item
+### [Existing roadmap item with link](https://github.com/wagtail/roadmap/issues/<N>)
 
 <!-- If scheduling an item already on the roadmap, link to it in the heading -->
 

@@ -32,6 +32,8 @@ Feedback from the wider community is also welcome as part of roadmap additions.
 
 For roadmap updates in bulk, use the [roadmap-specific RFC template](docs/rfc-template.md). For context, see [past roadmap-focused RFCs](https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3Aroadmap) and the [Wagtail release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
 
+The [draft-roadmap-rfc skill](../.agents/skills/draft-roadmap-rfc/SKILL.md) can help with the boilerplate of roadmap RFCs, moving items from one release to the next
+
 #### Level of detail
 
 Roadmap items should have titles accessible to stakeholders without technical expertise a lot of context on how Wagtail works.
