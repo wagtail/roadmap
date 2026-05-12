@@ -10,7 +10,7 @@
 
 We write in a **conversational-instructional** tone: friendly and approachable, focused on problem and outcome.
 
-- Titles are short and memorable. Often feature-shaped (e.g. "Site settings permissions", "Image library UX improvements").
+- Titles are short and memorable. Often feature-shaped ("Site settings permissions", "Image library UX improvements").
 - Hedging is fine: "stretch goals", "earmarked for", "currently planned", bullets that point to existing issues.
 - It is fine to describe work as refactoring or debt reduction if that is the honest framing; pair it with intended outcomes so non-maintainers still see the point.
 
@@ -24,7 +24,7 @@ We use copious amounts of links to facilitate navigation between related roadmap
 
 ### Sponsorship, programs, and credits
 
-- Labels express sponsorship and needs: e.g. `needs sponsorship`, `sponsored`, plus topic labels. See [README](../README.md).
-- Sponsored items often end with a short, consistent call to action after a horizontal rule (e.g. [wagtail.org/sponsor](https://wagtail.org/sponsor/)) and may tie the work to an RFC or product story in the body—see e.g. [.issues/closed/95-site-settings-permissions.md](../.issues/closed/95-site-settings-permissions.md).
-- Umbrella items (e.g. a Google Summer of Code season) summarise multiple projects in planning language ("progress on…"). Per-contributor thanks belong in release notes and upstream, not necessarily repeated for every sub-effort in the umbrella body.
+- Labels express sponsorship and needs: `needs sponsorship`, `sponsored`, `needs contributions`.
+- Sponsored items end with a short, consistent call to action after a horizontal rule (`This roadmap item is **[sponsored](https://wagtail.org/sponsor/)! ❤️**`).
+- Umbrella items (like Google Summer of Code season) summarize multiple projects in planning language ("progress on…"). Per-contributor thanks belong in release notes and upstream, not necessarily repeated for every sub-effort in the umbrella body.
 - When naming people, align spelling with how they appear elsewhere (release notes, commits) if you credit them in prose.
