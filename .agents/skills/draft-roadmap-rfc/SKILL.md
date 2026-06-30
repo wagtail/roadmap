@@ -75,6 +75,7 @@ The local issue files do **not** include the project's `Size` custom field, so t
   ```
 
   Pick the most recent one (highest RFC number / most recent `mergedAt`).
+
 - [ ] Fetch its raw Markdown from `https://raw.githubusercontent.com/wagtail/rfcs/refs/heads/main/text/<NNN>-roadmap-updates.md`. If that 404s (PR not merged yet), fall back to the PR head: `https://raw.githubusercontent.com/wagtail/rfcs/<headRefName>/text/<NNN>-roadmap-updates.md`.
 - [ ] Extract from the previous RFC:
   - The "next release" version (e.g. `v7.4`) → this becomes the **previous release** in the new RFC.
@@ -121,6 +122,7 @@ For each roadmap item with milestone equal to the new "next release" version (e.
   ```
 
   (or read frontmatter directly from `.issues/open/*.md`).
+
 - [ ] Get sizes from the GitHub project. Run once and reuse:
 
   ```bash
@@ -128,12 +130,14 @@ For each roadmap item with milestone equal to the new "next release" version (e.
   ```
 
   Then for each issue, find the matching item by `content.number` and read the `Size` custom field (single-select, values `XS`/`S`/`M`/`L`/`XL`). If `Size` is missing, write `Size: TBC`.
+
+- [ ] Also read the `Strategic theme` custom field for each item. If it is missing, write `Strategic theme: TBC`.
 - [ ] For each item, write a section like:
 
   ```markdown
   ### [<Issue title>](https://github.com/wagtail/roadmap/issues/<N>)
 
-  Size: <XS|S|M|L|XL|TBC>
+  Size: <XS|S|M|L|XL|TBC>, Strategic theme: one of the options from the README.
 
   <Summary paragraph copied from the issue body — the lead paragraph above the first `##` heading.>
   ```
@@ -141,6 +145,7 @@ For each roadmap item with milestone equal to the new "next release" version (e.
   Heading rules:
   - Items that already have a roadmap issue → heading is a link to the issue (mirrors `rfc-template.md`).
   - Items not yet tracked as a roadmap issue (rare for this skill, since we drive off issues) → plain heading, no link.
+
 - [ ] Order items the same way they appear in the GitHub Project's roadmap view, or — if that is unclear — by issue number ascending. Don't sort by size.
 
 ### 5. Fill in the remaining sections as `TBC`
@@ -182,6 +187,6 @@ Keep each heading from the template intact so the user can fill in directly with
   - The path of the new file.
   - The previous RFC URL used as input.
   - The release notes URL used as input.
-  - The list of items pulled into the "previous release" table (with their inferred status) and the "next release" sections (with their sizes).
+  - The list of items pulled into the "previous release" table (with their inferred status) and the "next release" sections (with their sizes and strategic themes).
   - Anything that was left as `TBC` and why.
   - Suggested next steps: review statuses, fill in the four `TBC` sections, then open a PR against `wagtail/rfcs` with the file renamed to `text/<NNN>-roadmap-updates.md`.

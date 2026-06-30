@@ -7,8 +7,19 @@
 title: ""
 # Pick 2-3 topic labels, and status labels ("needs contributions", "needs sponsorship", "sponsored") as appropriate.
 labels: [""]
-# XS, S, M, L, XL
+# Size: rough estimate of the effort needed for completion.
+# Options: XS, S, M, L, XL
 size: ""
+# Strategic theme: which specific aspect of our product strategy
+# Options: 4 pillars, and supporting work
+# - 🏔️ Future-ready content management: High-quality structured content, multiplayer content workflows, content discoverability and accessibility
+# - 🪢 Deep integrations and customizations: Structured data model, layered integration architecture, healthy package ecosystem.
+# - 🛠️ DX for humans with AI: Strong opinionated defaults, automation, comprehensive documentation.
+# - 🌳 How we build Wagtail: Strong design principles, sustainable contributor experience, community stewardship.
+# - 🏗️ Enabling capabilities: Key supporting and enabling capabilities to deliver our vision.
+# - 🪴 Maintenance: Table stakes / fundamental hygiene that supports other work.
+# - Other: Everything else.
+strategic_theme: ""
 # "vX.Y MMM YYYY" or "Future". Avoid "LTS" specifier, use three-letter months.
 release: ""
 ---

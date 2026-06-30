@@ -21,7 +21,7 @@ Read first:
 - [item template](../../../docs/item-template.md)
 - [style guide](../../../docs/style-guide.md)
 - [RFC template](../../../docs/rfc-template.md) — RFC section layout
-- [`gh-issue-sync` skill](~/.claude/skills/gh-issue-sync/SKILL.md) — commands and file format
+- [`gh-issue-sync` skill](~/.agents/skills/gh-issue-sync/SKILL.md) — commands and file format
 
 ## Methodology
 
@@ -58,7 +58,7 @@ Local issue files do **not** include project custom fields (`Size`, `Status`, `S
 
 - RFC URL used.
 - Milestone create / update operations (title, `due_on`, and whether already applied or pending user approval).
-- Operations table: create / update / close / reschedule / no change — with issue number (or `T…` temp ID), title, milestone, size, labels.
+- Operations table: create / update / close / reschedule / no change — with issue number (or `T…` temp ID), title, milestone, size, strategic theme, labels.
 - Items left `TBC` and why.
 - Post-push project field commands still needed.
 - Reminder to update [wagtail.org/roadmap](https://wagtail.org/roadmap/) ([CONTRIBUTING](../../../docs/CONTRIBUTING.md)).
@@ -120,7 +120,7 @@ Read the RFC against [`docs/rfc-template.md`](../../../docs/rfc-template.md) sec
 | `## Proposed roadmap items to close`                     | **Close**                                                             |
 | Previous-release row: Done + "follow-ups on the roadmap" | Flag — follow-up is usually a separate RFC item                       |
 
-Extract per item: title, `Size:` from RFC (or `TBC`), target milestone from the section (`vX.Y` or `Future`), body content below the heading.
+Extract per item: title, `Size:` from RFC (or `TBC`), `Strategic theme:` from RFC (or `TBC`), target milestone from the section (`vX.Y` or `Future`), body content below the heading.
 
 Cross-check release dates with `.issues/.sync/milestones.json` and the [release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
 
@@ -130,14 +130,15 @@ Diff against synced local files; skip items that already match.
 
 Structure and tone: [`docs/item-template.md`](../../../docs/item-template.md), [`docs/style-guide.md`](../../../docs/style-guide.md). Labels: [`.github/labels.json`](../../../.github/labels.json) only.
 
-Frontmatter mapping (see [`gh-issue-sync` skill](~/.claude/skills/gh-issue-sync/SKILL.md)):
+Frontmatter mapping (see [`gh-issue-sync` skill](~/.agents/skills/gh-issue-sync/SKILL.md)):
 
-| Item template | Issue frontmatter | Set on project after push |
-| ------------- | ----------------- | ------------------------- |
-| `title`       | `title`           | —                         |
-| `labels`      | `labels`          | —                         |
-| `release`     | `milestone`       | `Status`                  |
-| `size`        | —                 | `Size`                    |
+| Item template     | Issue frontmatter | Set on project after push |
+| ----------------- | ----------------- | ------------------------- |
+| `title`           | `title`           | —                         |
+| `labels`          | `labels`          | —                         |
+| `strategic_theme` | —                 | `Strategic theme`         |
+| `release`         | `milestone`       | `Status`                  |
+| `size`            | —                 | `Size`                    |
 
 Always set `projects: [Wagtail public roadmap]`. Derive `Status`, `Start date`, and `Target date` from milestone metadata per [CONTRIBUTING](../../../docs/CONTRIBUTING.md).
 
@@ -147,7 +148,7 @@ Always set `projects: [Wagtail public roadmap]`. Derive `Status`, `Start date`, 
 
 **Closes** — `gh-issue-sync close <N> --reason completed|not_planned`.
 
-**Comments on push** — `.issues/open/<N>.comment.md` ([`gh-issue-sync` skill](~/.claude/skills/gh-issue-sync/SKILL.md)).
+**Comments on push** — `.issues/open/<N>.comment.md` ([`gh-issue-sync` skill](~/.agents/skills/gh-issue-sync/SKILL.md)).
 
 Review with `gh-issue-sync status`, `gh-issue-sync diff <N>`, `gh-issue-sync push --dry-run`. Do not push unless the user asks.
 

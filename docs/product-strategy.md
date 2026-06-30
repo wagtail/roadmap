@@ -26,7 +26,7 @@ Wagtail will continue to provide core CMS capabilities, including a first-class 
 
 For Wagtail to succeed, we need to iterate and modernize across three product-focused themes: content management lifecycle, interoperability and integrations, and developer experience. In addition, we need to transform how we build Wagtail itself. And success will also depend on how effectively our marketing strategy communicates the powerful “CMS + framework” value proposition of Wagtail.
 
-## Our guiding principles for Wagtail and AI
+### Our guiding principles for Wagtail and AI
 
 We acknowledge the transformational impact of AI and the opportunities for meaningful acceleration and improvement this can bring to Wagtail. We are also mindful that sectors and organisations are adopting AI at different rates, with commercial, technical, cultural, and legal considerations, as well as ethical and environmental impacts, variously informing their decisions.
 
@@ -40,7 +40,7 @@ Our guiding principles for Wagtail and AI (originally published in July 2025) wi
 
 With the right foundations in Wagtail core enabling AI-driven capabilities in Wagtail packages and custom integrations, organisations adopting Wagtail will be empowered to leverage the opportunities afforded by AI to the extent, and at the pace, that works for them.
 
-## Future-ready content management
+### Future-ready content management
 
 Our users appreciate Wagtail’s ease of use, editorial experience, and accessibility, and its flexibility when it comes to website front-ends. Building on those solid foundations, we need to adapt to emerging ways of creating, managing, and publishing content. This means a focus on:
 
@@ -52,7 +52,7 @@ _Picture drafting a new page. Auto-convert rough notes to structured blocks. The
 
 We want Wagtail to be the best choice for organisations with high standards for content quality and compliance. This is made possible by our commitment to accessibility, going beyond the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [ATAG](https://www.w3.org/WAI/standards-guidelines/atag/) standards. To sustainability, meeting the emerging [Web Sustainability Guidelines](https://www.w3.org/TR/web-sustainability-guidelines/). And to SEO, navigating changes in the AI landscape by focusing on high quality.
 
-## Deep integrations and customizations
+### Deep integrations and customizations
 
 Wagtail’s roots in Django mean innate flexibility, to support deep integrations and advanced customizations. This is more approachable than ever with agentic engineering. To unlock this opportunity, we will need to:
 
@@ -62,7 +62,7 @@ Wagtail’s roots in Django mean innate flexibility, to support deep integration
 
 _Imagine multi-channel publishing for a website and via a SaaS newsletter platform. With two-way data flow. The platform both reads page content and writes metadata and engagement metrics back in the CMS._
 
-## Developer Experience (DX) for humans with AI
+### Developer Experience (DX) for humans with AI
 
 We want Wagtail to provide the best DX for full-stack website development in Python, building upon the strengths of Django but within the modern agentic paradigm. To achieve this, we need:
 
@@ -72,7 +72,7 @@ We want Wagtail to provide the best DX for full-stack website development in Pyt
 
 This will also help us maintain security as a key differentiator. Both Django and Wagtail core provide strong defaults, meeting and exceeding the [OWASP Top 10](https://owasp.org/www-project-top-ten/). Our comprehensive documentation helps make sure this value is preserved in real-world projects, and we need to further encourage adapting Wagtail to emerging threats.
 
-## How we build Wagtail
+### How we build Wagtail
 
 We will continue to produce high-quality, sustainable open source code. That’s always been a high bar to maintain and requires very careful consideration of the contributions we accept into Wagtail core. This has only been exacerbated by the growing onslaught of AI slop submissions affecting open source projects. Renewed effort will be required across the pillars of our project.
 
@@ -95,7 +95,7 @@ To deliver our vision for Wagtail, key supporting and enabling capabilities will
 - We will need to increase investment in both the product development and marketing of Wagtail, and diversify the sources of that investment for long-term resilience. There is much for us to learn from the experience and programmes (e.g. sponsorship, membership) of other successful open source projects.
 - And we must continue to act with transparency and integrity, with independent governance conferring credibility on the open source project and giving organisations that adopt Wagtail confidence. Thinking and working in the open, and keeping our community informed and engaged with our public roadmap and new releases, is not optional – it’s essential.
 
-## Technology that supports our strategy
+### Technology that supports our strategy
 
 The following core technology changes are particularly key to our success.
 
@@ -108,14 +108,14 @@ The following core technology changes are particularly key to our success.
 
 This starts with adjusting some of our processes to the new strategy, particularly decision-making for the project pipeline, and measures to track. Making sure we are building up the enabling capabilities.
 
-## Market and ecosystem outcomes
+### Market and ecosystem outcomes
 
 - Adoption: more organisations from our target sectors using Wagtail, and the rate of adoption increasing over time. More agencies in the network, more globally distributed.
 - Awareness: increased awareness among the decision-makers and developers that make and influence adoption decisions.
 - Contributions: more organisations and agencies contributing to Wagtail with many types of contributions beyond code in core. Creating and maintaining packages, organising, sponsoring and speaking at events, generating and boosting content.
 - Investment: a new model for harnessing financial contributions – for example, in the form of sponsorship – from participants in the Wagtail ecosystem that understand the benefit they derive from the open source project, to support future innovation, development, and marketing.
 
-## Key measures to track
+### Key measures to track
 
 - % of roadmap items aligned or explicitly tied to strategic themes, to speed up prioritization discussions.
 - Package ecosystem health monitoring - number of packages, maintenance status, and reported breakage. Tied to the Wagtail release schedule.

@@ -23,6 +23,7 @@ RFCs can be used for roadmap additions, so core team members and the wider commu
 The core team review should include:
 
 - Making sure the level of detail is appropriate for the roadmap.
+- Assessing whether the given addition aligns with one of the [strategic themes](../README.md#strategic-themes) and our product strategy.
 - Assessing whether the given addition is likely to require an RFC or not.
 - Sharing the proposed additions on regular core team channels.
 - Discussions at one or two core team meetings to find reviewers or discuss specific points.

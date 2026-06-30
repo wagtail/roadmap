@@ -34,7 +34,7 @@ Proposed roadmap items for vX.Y (Month YYYY):
 
 <!-- If scheduling an item already on the roadmap, link to it in the heading -->
 
-Size: XS/S/M/L/XL
+Size: XS/S/M/L/XL, Strategic theme: see https://github.com/wagtail/roadmap/blob/main/README.md#strategic-themes
 
 Copy of its existing roadmap summary as-is.
 
@@ -42,7 +42,7 @@ Copy of its existing roadmap summary as-is.
 
 <!-- This uses the same template as published roadmap items, but simplified to help with reviews. -->
 
-Size: XS/S/M/L/XL
+Size: XS/S/M/L/XL, Strategic theme: see https://github.com/wagtail/roadmap/blob/main/README.md#strategic-themes
 
 Summary: short overview of the proposed work. One paragraph, tweet-sized. Optionally, add a list of 2-5 items detailing what will be the result of this work. It’s ok if some of it is tentative.
 
