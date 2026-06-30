@@ -10,7 +10,22 @@ Our public roadmap is where you can learn about what features we're working on, 
 
 Only items of significant interest to the community go onto the roadmap. Inclusion is based on judgement by the core team rather than a fixed checklist. These items might, or might not need an [RFC](https://github.com/wagtail/rfcs) for implementation details before they get on the roadmap.
 
-### Roadmap reports
+## Strategic themes
+
+We track which specific aspect of our [product strategy](https://wagtail.org/product-strategy/) roadmap items align with, across the four pillars of our strategy:
+
+- 🏔️ Future-ready content management: High-quality structured content, multiplayer content workflows, content discoverability and accessibility
+- 🪢 Deep integrations and customizations: Structured data model, layered integration architecture, healthy package ecosystem.
+- 🛠️ DX for humans with AI: Strong opinionated defaults, automation, comprehensive documentation.
+- 🌳 How we build Wagtail: Strong design principles, sustainable contributor experience, community stewardship.
+
+And supporting work:
+
+- 🏗️ Enabling capabilities: Key supporting and enabling capabilities to deliver our vision.
+- 🪴 Maintenance: Table stakes / fundamental hygiene that supports other work.
+- Other: Everything else.
+
+## Roadmap reports
 
 Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
 
