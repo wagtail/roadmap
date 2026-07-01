@@ -1,6 +1,6 @@
 {
   "generated_with": "gh label list --sort name --json name,color,description",
-  "last_updated": "2025-12-03T10:42:22.043Z",
+  "last_updated": "2026-06-30T00:00:00.000Z",
   "labels": [
     {
       "name": "AI",
@@ -11,6 +11,11 @@
       "name": "accessibility",
       "color": "2a0f99",
       "description": "Accessible admin and frontend sites, meeting WCAG, ATAG, and beyond."
+    },
+    {
+      "name": "adoption",
+      "color": "c71585",
+      "description": "Marketing positioning, starter kits, demo sites, target sector adoption."
     },
     {
       "name": "community",
@@ -25,7 +30,7 @@
     {
       "name": "customizations",
       "color": "870756",
-      "description": "Extensibility, integrations, hooks, configuration for bespoke needs, in particular admin extensibility."
+      "description": "Extensibility, integrations, hooks, config for bespoke needs, in particular admin extensibility."
     },
     {
       "name": "database",
@@ -43,9 +48,19 @@
       "description": "Developer Experience: tooling, APIs, docs for building on Wagtail."
     },
     {
+      "name": "ecosystem",
+      "color": "e67e22",
+      "description": "Package ecosystem, Wagtail Nest, third-party integration health, curation."
+    },
+    {
       "name": "headless",
       "color": "c62ce6",
       "description": "API-first headless delivery, full-stack frontend frameworks integrations."
+    },
+    {
+      "name": "interoperability",
+      "color": "20c997",
+      "description": "APIs, integrations, third-party connectivity, and layered architecture."
     },
     {
       "name": "i18n",
@@ -91,6 +106,11 @@
       "name": "security",
       "color": "d4c5f9",
       "description": "Security hardening, authentication, permissions, threat mitigation, vulnerabilities management."
+    },
+    {
+      "name": "structured content",
+      "color": "2e8b57",
+      "description": "Data model, blocks, fields, semantic content architecture, machine-friendly markup."
     },
     {
       "name": "sponsored",
