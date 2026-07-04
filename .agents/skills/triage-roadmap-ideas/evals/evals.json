@@ -1,0 +1,57 @@
+{
+  "skill_name": "triage-roadmap-ideas",
+  "note": "Test cases use real roadmap issues (assessed retrospectively as if freshly proposed) to exercise the full selection-criteria.md pipeline: classify -> gate -> score -> plot -> summarise -> decide.",
+  "evals": [
+    {
+      "id": 0,
+      "name": "accessibility-checker-pillar",
+      "prompt": "Triage this proposal against our roadmap methodology: Accessibility checker enhancements — a follow-up to Wagtail's built-in accessibility checker. Proposed additions: sorting checker results by their order on the page; highlighting elements with errors (outline); custom configuration options; keyboard support improvements; and (stretch) integrating the checker within the page editor.",
+      "expected_output": "A triage file classifying this as Pillar work (🏔️ Future-ready content management), G1 all N/A (non-AI), high strategic fit and a strong differentiator score (accessibility is a named differentiator), weighted score ~high, positioned High value / High viability -> Schedule. Real related items (e.g. #19, #66, #27) and valid labels including 'accessibility'. Real issue reference: #36.",
+      "files": [],
+      "assertions": [
+        "A triage markdown file is written",
+        "Classified at Stage 0 as Pillar work",
+        "Gates G1-G3 recorded; G1 marks all five AI principles (all N/A here)",
+        "All six criteria scored 1-5 with weights (strategic fit 25%, others 15%) and a weighted overall out of 5; criterion 1 records the per-pillar spread with a MAX",
+        "Two-axis position computed (Y=mean of 1,2,3; X=mean of 4,5,6) with bubble size and named quadrant",
+        "Qualitative summary: rationale, primary pillar (Future-ready content management), key assumption, and a decision with a review date",
+        "Differentiator score reflects accessibility; strategic fit high on a named pillar element",
+        "Related items real and 2-3 valid labels including 'accessibility'"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "image-feature-detection-weak",
+      "prompt": "Triage this proposal against our roadmap methodology: Image feature detection — face and feature detection for images using OpenCV, so Wagtail can intelligently crop images by centring on detected faces or other points of interest. Intended outcome: automatic detection of faces/features on upload; renditions centred on the important part; better responsive images and thumbnails without manual intervention.",
+      "expected_output": "A triage file with weak strategic fit (low criterion-1 score, not inflated), G2 = Package (heavy OpenCV dependency belongs out of core) and G3 = Concern, a low weighted score, positioned Low value / Low viability -> Decline or park (redirect to package ecosystem) with a review date. Valid labels and real related items (e.g. #139, #110). Real issue reference: #134.",
+      "files": [],
+      "assertions": [
+        "A triage markdown file is written",
+        "Classified at Stage 0",
+        "Gates G1-G3 recorded; G1 engages the ML/computer-vision dimension with per-principle marks (not blanket N/A); G2 and G3 flag package placement / maintenance concern",
+        "All six criteria scored with weighted overall; per-pillar spread for criterion 1",
+        "Strategic fit is low/modest rather than inflated",
+        "Two-axis position and quadrant computed; qualitative summary with key assumption and a decision + review date",
+        "The decision reflects a weak/marginal item (park, decline, or opportunistic) — not 'schedule now'",
+        "Labels valid (2-3 from labels.json); related items real if cited"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "grabbag-enabler-routed-out",
+      "prompt": "Triage these three ideas from our backlog and tell me what to do with each:\n\n1. Adopt Stimulus as a lightweight JS framework in the admin, to replace jQuery, inline scripts and excessive globals, with docs for contributors and APIs for third-party customisations.\n2. A new {% include_block %} template tag that passes the full template context (page, request) to StreamField block templates, replicating Django's {% include %} behaviour.\n3. Translate the editor's guide documentation into more languages.",
+      "expected_output": "A triage file that assesses the three ideas separately: idea 1 (Stimulus) classified as an Enabler and scored with the enabler variant of criterion 1 (breadth of unblocking); ideas 2 and 3 routed out at Stage 0 (small DX enhancement / thin docs-translation work) rather than forced through the matrix. Summary ranking table (by weighted score) plus scatter coordinates. Real issue references: #21, #161, #17.",
+      "files": [],
+      "assertions": [
+        "A triage markdown file is written",
+        "The three ideas are assessed separately",
+        "Idea 1 (Stimulus) is classified as an Enabler and scored using the enabler variant of criterion 1 (breadth of unblocking)",
+        "Ideas 2 and 3 are routed out at Stage 0 rather than forced through the full matrix",
+        "A summary ranking table (by weighted score) and a scatter-coordinates table are present",
+        "Each scored item has gates recorded, weighted overall, two-axis position, and a decision with review date",
+        "Every cited related item maps to a real issue number; all labels exist in labels.json",
+        "Routed-out items still get a clear decision with a one-line rationale, not a fabricated score"
+      ]
+    }
+  ]
+}
