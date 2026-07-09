@@ -30,8 +30,8 @@ And supporting work:
 Every item on the roadmap is a GitHub issue, with [labels](https://github.com/wagtail/roadmap/labels) to indicate high-level areas of focus. Some of the labels have special meanings:
 
 - [needs contributions](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+contributions%22): there is a particular dependency on more contributors getting involved.
-- [needs sponsorship](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+sponsorship%22): this item is dependent on a [feature sponsorship](https://wagtail.org/sponsor/)
-- [sponsored](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3Asponsored): this item is going ahead thanks to a feature sponsor (thank you!)
+- [needs sponsorship](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3A%22needs+sponsorship%22): this item is dependent on a [feature sponsorship](https://wagtail.org/sponsor/).
+- [sponsored](https://github.com/wagtail/roadmap/issues?q=sort%3Aupdated-desc+is%3Aopen+label%3Asponsored): this item is going ahead thanks to a feature sponsor. (thank you!)
 
 We also have reports in GitHub Projects:
 
