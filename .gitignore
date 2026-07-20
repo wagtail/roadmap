@@ -1,1 +1,4 @@
 .DS_Store
+
+# Skill-creator eval run artifacts (per-run outputs, grading, benchmarks, viewer feedback)
+**/*-workspace/
