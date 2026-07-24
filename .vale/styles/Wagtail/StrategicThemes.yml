@@ -1,0 +1,7 @@
+extends: existence
+message: "Use one of the defined strategic themes in YAML front matter: %s"
+link: https://github.com/wagtail/roadmap/blob/main/docs/item-template.md#L14-L21
+level: error
+scope: raw
+ignorecase: false
+raw: 'strategic_theme:\s+"(?!Future-ready content management|Deep integrations and customizations|DX for humans with AI|How we build Wagtail|Enabling capabilities|Maintenance|Other)[^"]*"'

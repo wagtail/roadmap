@@ -1,0 +1,11 @@
+extends: existence
+message: "Use consistent sponsorship label phrasing: '%s'"
+link: https://github.com/wagtail/roadmap/blob/main/docs/style-guide.md#sponsorship-programs-and-credits
+level: suggestion
+scope: raw
+tokens:
+  - needs sponsorship
+  - needs contributions
+  - needs sponsor
+  - looking for.*sponsor
+  - sponsored

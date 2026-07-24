@@ -1,0 +1,22 @@
+name: Vale
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "*.md"
+      - ".vale.ini"
+      - ".vale/**"
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: errata-ai/vale-action@v2
+        with:
+          style: |
+            https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+          files: docs/ README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

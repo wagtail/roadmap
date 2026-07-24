@@ -1,0 +1,5 @@
+extends: existence
+message: "Release in YAML front matter should be 'vX.Y MMM YYYY' or 'Future'"
+level: warning
+scope: raw
+raw: 'release:\s*"(?!Future|v\d+\.\d+\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4})"'

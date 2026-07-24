@@ -1,0 +1,5 @@
+extends: existence
+message: "Size in YAML front matter should be XS, S, M, L, or XL"
+level: error
+scope: raw
+raw: 'size:\s+"(?!XS|S|M|L|XL)"'

@@ -58,6 +58,29 @@ To keep the review process fast, we recommend to:
 
 We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of Wagtail. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [GitHub Discussions for Wagtail](https://github.com/wagtail/wagtail/discussions).
 
+### Linting
+
+We use [Vale](https://vale.sh/) to lint documentation files against our [style guide](docs/style-guide.md).
+
+```bash
+# Install Vale (macOS)
+brew install vale
+
+# Install Vale (other platforms)
+# See https://vale.sh/docs/install/
+
+# Run on all docs
+vale docs/ README.md
+
+# Run on a specific file
+vale docs/style-guide.md
+
+# Only show errors (hide warnings and suggestions)
+vale --minAlertLevel=error docs/ README.md
+```
+
+### Managing the roadmap
+
 For maintainers, here is guidance on how to manage our roadmap data:
 
 - Use [this secret issue creation link](https://github.com/wagtail/roadmap/issues/new/choose?template=blank) to add new items. Issue creation is enabled but configured to direct users to other channels.
