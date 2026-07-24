@@ -123,16 +123,27 @@ For each roadmap item with milestone equal to the new "next release" version (e.
 
   (or read frontmatter directly from `.issues/open/*.md`).
 
-- [ ] Get sizes from the GitHub project. Run once and reuse:
+- [ ] Get sizes and strategic themes from the GitHub project. Run once and reuse:
 
   ```bash
   gh project item-list 16 --owner wagtail --format json --limit 200 > /tmp/wagtail-roadmap-project.json
   ```
 
-  Then for each issue, find the matching item by `content.number` and read the `Size` custom field (single-select, values `XS`/`S`/`M`/`L`/`XL`). If `Size` is missing, write `Size: TBC`.
+  Then for each issue, find the matching item by `content.number` and read:
+  - `Size` custom field (single-select, values `XS`/`S`/`M`/`L`/`XL`). If missing, write `TBC`.
+  - `Strategic theme` custom field. If missing, write `TBC`.
 
-- [ ] Also read the `Strategic theme` custom field for each item. If it is missing, write `Strategic theme: TBC`.
-- [ ] For each item, write a section like:
+- [ ] Build a "table of contents" summary table at the top of the section with columns `Item`, `Size`, `Strategic theme`. The Item column uses an anchor link to the item's `###` heading (e.g. `[Issue title](#issue-title)`). Example:
+
+  ```markdown
+  | Item                                                                | Size | Strategic theme                    |
+  | ------------------------------------------------------------------- | ---- | ---------------------------------- |
+  | [Customizable page explorer](#customizable-page-explorer)           | L    | 🏔️ Future-ready content management |
+  ```
+
+  Generate the anchor from the issue title: lowercase, spaces to hyphens, strip punctuation.
+
+- [ ] For each item, write a subsection like:
 
   ```markdown
   ### [<Issue title>](https://github.com/wagtail/roadmap/issues/<N>)
@@ -148,18 +159,25 @@ For each roadmap item with milestone equal to the new "next release" version (e.
 
 - [ ] Order items the same way they appear in the GitHub Project's roadmap view, or — if that is unclear — by issue number ascending. Don't sort by size.
 
-### 5. Fill in the remaining sections as `TBC`
+### 5. Build the "next+1" and "Future" sections
 
-Per the user's instructions, the following sections are left for the user to refine. Don't generate content for them.
+Per the user's instructions, these sections are left for the user to refine. Don't generate content for them.
 
 - [ ] `## Roadmap for the next+1 release` — body: `TBC`.
 - [ ] `## Roadmap for "Future" releases` — body: `TBC`.
+
+Keep the section headings from the template intact so the user can fill in directly.
+
+### 6. Fill in the remaining sections as `TBC`
+
+Per the user's instructions, the following sections are left for the user to refine. Don't generate content for them.
+
 - [ ] `## Proposed roadmap items to close` — body: `TBC`.
 - [ ] `## Items that didn't make the cut` — body: `TBC`.
 
 Keep each heading from the template intact so the user can fill in directly without restructuring.
 
-### 6. Assemble the document
+### 7. Assemble the document
 
 - [ ] Use the template at [`docs/rfc-template.md`](../../../docs/rfc-template.md) as the structural baseline. Don't keep template HTML comments in the final draft.
 - [ ] Frontmatter / header:
@@ -176,10 +194,12 @@ Keep each heading from the template intact so the user can fill in directly with
 - [ ] Abstract: copy the standard abstract used in `rfc-template.md` verbatim. It links to past RFCs and the release schedule.
 - [ ] Version number section: phrase as `Provisional version number: v<X.Y> (minor release), in <Month YYYY> based on discussions to date.` Use `LTS` after the version only if the milestone metadata or release schedule says so; otherwise drop it.
 - [ ] Roadmap for the previous release: the table from step 3, preceded by the line `Here is the status of roadmap items for the latest release, v<X.Y> (<Month YYYY>):`.
-- [ ] Roadmap for the next release: the heading line `Proposed roadmap items for v<X.Y> (<Month YYYY>).`, followed by the per-item sections from step 4.
-- [ ] Subsequent `TBC` sections from step 5.
+- [ ] Roadmap for the next release: the heading line `Proposed roadmap items for v<X.Y> (<Month YYYY>).`, followed by the ToC summary table from step 4, then the per-item subsections from step 4.
+- [ ] Roadmap for the next+1 release: heading line and `TBC` body.
+- [ ] Roadmap for "Future" releases: heading line and `TBC` body.
+- [ ] Subsequent `TBC` sections from step 6.
 
-### 7. Write the file and report
+### 8. Write the file and report
 
 - [ ] Save to `rfc-<NNN>.md` in the repo root (overwrite if the user already created an empty placeholder).
 - [ ] Lint the file by reading it back: every roadmap issue link should resolve to `https://github.com/wagtail/roadmap/issues/<N>`, and every section from the template should be present.
@@ -187,6 +207,6 @@ Keep each heading from the template intact so the user can fill in directly with
   - The path of the new file.
   - The previous RFC URL used as input.
   - The release notes URL used as input.
-  - The list of items pulled into the "previous release" table (with their inferred status) and the "next release" sections (with their sizes and strategic themes).
+  - The list of items pulled into the "previous release" table (with their inferred status) and the "next release" ToC table and sections (with their sizes and strategic themes).
   - Anything that was left as `TBC` and why.
   - Suggested next steps: review statuses, fill in the four `TBC` sections, then open a PR against `wagtail/rfcs` with the file renamed to `text/<NNN>-roadmap-updates.md`.

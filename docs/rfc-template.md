@@ -12,6 +12,19 @@
 This RFC provides a high-level overview of proposed [public roadmap](https://github.com/wagtail/roadmap) updates for future releases.
 For context, see [past roadmap-focused RFCs](https://github.com/wagtail/rfcs/pulls?q=is%3Apr+label%3Aroadmap) and the [Wagtail release schedule](https://github.com/wagtail/wagtail/wiki/Release-schedule).
 
+For each item, we provide an indicative "size" to represent the effort involved, and a strategic theme which maps to areas of [our product strategy](https://wagtail.org/product-strategy/):
+
+- **🏔️ Future-ready content management**: High-quality structured content, multiplayer content workflows, content discoverability and accessibility
+- **🪢 Deep integrations and customizations**: Structured data model, layered integration architecture, healthy package ecosystem.
+- **🛠️ DX for humans with AI**: Strong opinionated defaults, automation, comprehensive documentation.
+- **🌳 How we build Wagtail**: Strong design principles, sustainable contributor experience, community stewardship.
+
+And supporting work:
+
+- **🏗️ Enabling capabilities**: Key supporting and enabling capabilities to deliver our vision.
+- **🪴 Maintenance**: Table stakes / fundamental hygiene that supports other work.
+- **Other**: Everything else.
+
 ## Version number for the next release
 
 Provisional version number: vX.Y (minor release), in Month YYYY based on discussions to date.
@@ -28,7 +41,14 @@ Here is the status of roadmap items for the latest release, vX.Y-1 (Month YYYY):
 
 ## Roadmap for the next release
 
-Proposed roadmap items for vX.Y (Month YYYY):
+Proposed roadmap items for vX.Y (Month YYYY).
+
+<!-- Add a "table of contents" with anchor links to all items in this section. -->
+
+| Item                                                                | Size        | Strategic theme                    |
+| ------------------------------------------------------------------- | ----------- | ---------------------------------- |
+| [Existing roadmap item with link](#existing-roadmap-item-with-link) | XS/S/M/L/XL | 🏔️ Future-ready content management |
+| [New proposed roadmap item](#new-proposed-roadmap-item)             | XS/S/M/L/XL | 🌳 How we build Wagtail            |
 
 ### [Existing roadmap item with link](https://github.com/wagtail/roadmap/issues/<N>)
 
@@ -50,9 +70,29 @@ If relevant – a list of 1-3 links to related issues, pull requests, RFCs, disc
 
 ## Roadmap for the next+1 release
 
-Proposed roadmap items for vX.Y+1 (Month YYYY):
+Proposed roadmap items for vX.Y+1 (Month YYYY).
+
+<!-- Add a "table of contents" with anchor links to all items in this section. -->
+
+| Item                                                            | Size        | Strategic theme         |
+| --------------------------------------------------------------- | ----------- | ----------------------- |
+| [Another proposed roadmap item](#another-proposed-roadmap-item) | XS/S/M/L/XL | 🌳 How we build Wagtail |
+
+### Another proposed roadmap item
+
+<!-- Same template as previous section -->
+
+Size: XS/S/M/L/XL, Strategic theme: see https://github.com/wagtail/roadmap/blob/main/README.md#strategic-themes
 
 ## Roadmap for "Future" releases
+
+<!-- Add a "table of contents" with anchor links to all items in this section. -->
+
+| Item                                                                    | Size        | Strategic theme         |
+| ----------------------------------------------------------------------- | ----------- | ----------------------- |
+| [Yet another proposed roadmap item](#yet-another-proposed-roadmap-item) | XS/S/M/L/XL | 🌳 How we build Wagtail |
+
+### Another proposed roadmap item
 
 <!-- Add items with the same template as above -->
 
